@@ -65,14 +65,14 @@ body {
     position: relative;
     z-index: 10;
     width: 550px;
-    margin: -220px auto 0 auto;
+    margin: -250px auto 0 auto;
     padding: 0;
     text-align: center;
     font-size: 80px;
     letter-spacing: 4px;
     font-family: "Fleur De Leah", cursive;
     line-height: 1;
-    background: linear-gradient(to right,#b47c92,#e8b8ca,#90f0b4,#b47c92);
+    background: linear-gradient(to right,#6b0000,#ff3b3b,#a00000,#ff6666,#6b0000);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
