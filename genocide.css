@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+
+body {
+    font-family: Georgia, serif;
+    color: transparent;
+}
+
+.genocide {
+    position: relative;
+    width: 700px;
+    margin: 40px auto;
+    background: transparent;
+}
+
+/* IMAGE */
+.genocide-image {
+    position: relative;
+    z-index: 2;
+    width: 700px;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url("");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* TEXT BOX */
+.genocide-text {
+    width: 550px;
+    min-height: 350px;
+    margin: 0 auto;
+    margin-top: -180px;
+    padding: 30px;
+    text-align: justify;
+    background: transparent;
+}
+
+/* BODY TEXT */
+.genocide-body {
+    position: relative;
+    z-index: 5;
+    width: 500px;
+    margin: 0 auto;
+    padding: 140px 20px 20px 20px;
+    text-align: justify;
+    color: #4f6f5a;
+    font-size: 13px;
+    line-height: 1.6;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+/* TITLE */
+.genocide-title {
+    position: relative;
+    z-index: 5;
+    text-align: center;
+    font-size: 80px;
+    color: #b47c92;
+    letter-spacing: 4px;
+    font-family: "Fleur De Leah", cursive;
+    margin-top: -50px;
+    margin-bottom: -38px;
+    background: linear-gradient(
+        to right,
+        #b47c92,
+        #e8b8ca,
+        #90f0b4,
+        #b47c92
+    );
+
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}
+
+/* QUOTE */
+.genocide-quote {
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    font-family: "Lovers Quarrel", cursive;
+    color: #a98b96;
+    margin-bottom: 0;
+    margin-top: 0px;
+    line-height: 1;
+}
