@@ -18,7 +18,7 @@ body {
     position: relative;
     width: 700px;
     margin: 40px auto;
-    padding-bottom: 45px;
+    padding-bottom: 60px;
     background: linear-gradient(
         to bottom,
         transparent 0,
@@ -26,16 +26,8 @@ body {
         #120000 500px,
         #120000 100%
     );
-    clip-path: polygon(
-        8% 0,
-        92% 0,
-        100% 6%,
-        100% 94%,
-        92% 100%,
-        8% 100%,
-        0 94%,
-        0 6%
-    );
+    border-radius: 0 0 50% 50% / 0 0 12% 12%;
+    overflow: hidden;
 }
 
 /* IMAGE */
