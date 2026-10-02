@@ -26,7 +26,8 @@ body {
     position: absolute;
     z-index: 0;
     top: 500px;
-    margin: auto;
+    left: 50%;
+    transform: translateX(-50%);
     width: 550px;
     height: calc(100% - 500px);
     background: #120000;
