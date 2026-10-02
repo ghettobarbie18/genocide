@@ -27,10 +27,10 @@ body {
     z-index: 0;
     top: 500px;
     left: 0;
-    width: 100%;
+    width: 550px;
     height: calc(100% - 500px);
     background: #120000;
-    border-radius: 70px;
+    border-radius: 50px;
 }
 
 /* IMAGE */
