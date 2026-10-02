@@ -65,20 +65,25 @@ body {
     z-index: 5;
     width: 500px;
     margin: 0 auto;
-    padding: 40px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
     text-align: justify;
     color: black;
     font-size: 13px;
     line-height: 1.6;
     overflow-x: hidden;
     overflow-y: auto;
+    background: linear-gradient(to right,#6b0000,#ff3b3b,#a00000,#ff6666);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
 }
 
 /* TITLE */
 .genocide-title {
     position: absolute;
     z-index: 20;
-    top: 550px;
+    top: 600px;
     left: 50%;
     transform: translateX(-50%);
     width: 550px;
@@ -100,7 +105,7 @@ body {
     position: absolute;
     z-index: 10;
     left: 0;
-    bottom: -20px;
+    bottom: 50px;
     width: 100%;
     padding: 0 30px;
     text-align: center;
